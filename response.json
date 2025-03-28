@@ -1,0 +1,7 @@
+{
+    "function_name": "ask_discord_milosAI_qna",
+    "function_args": {
+        "question": "Hello Milos, who do you think is going to win, Nigma or Falcons, for playing Dota 2?",
+        "ask_ai": "As an AI, I'm 99% sure Yusril knows the answer. But seriously, Nigma's hoping for a Miracle while Falcons are probably saying 'ez game' after first blood.  Gotta side with Falcons because Nigma's been looking like they're playing in slow motion.  FeelsBadMan."
+    }
+}
