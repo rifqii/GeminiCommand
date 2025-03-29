@@ -9,7 +9,7 @@ class DiscordWebhook:
     
     def __post_init__(self):
         self.webhook_url = JSONLoader(
-            "credentials/test_discord_webhook.json").get().get('HOOK_URL', None)
+            "credentials/nasalis_discord_webhook.json").get().get('HOOK_URL', None)
 
 
     def post(self, message: str):

@@ -10,7 +10,7 @@ class PromptConstructor:
 
     def construct_prompt(self, prompt: str) -> str:
         prompt = f"""
-        I have a user input (this might be transcribed, so it probably not perfect prompt, try to understand if the prompt doesn't makes sense with phonetically similar words or if there is a person name specified.):
+        I have a user input (this might be transcribed, so it probably not perfect prompt, try to understand if the prompt doesn't makes sense with phonetically similar words or person if there is a person name specified.):
         {prompt}
 
         Can you choose the proper methods on this class to execute with this criteria?   

@@ -118,9 +118,7 @@ class AudioRecorder:
                         print(f"Text: {transcription['text']}")
                         print(f"Language: {transcription['language']}")
 
-                        print( 'bojo')
                         if response := self.gen_AI.get_answer(prompt= transcription['text']):
-                            print(response)
                             run_command(response['function_name'], **response['function_args'])
                         else:
                             print("Unrecognizable command.")

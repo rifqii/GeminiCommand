@@ -9,13 +9,6 @@ import json
 
 from .PromptConstructor import PromptConstructor
 
-# client = genai.Client(api_key=CredentialsLoader)
-
-# response = client.models.generate_content(
-#     model='gemini-2.0-flash', contents='How does RLHF work?'
-# )
-# print(response.text)
-
 
 @dataclass
 class GenAI:
